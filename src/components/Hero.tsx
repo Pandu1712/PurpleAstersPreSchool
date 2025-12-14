@@ -137,12 +137,13 @@ export default function Hero({ onNavigate }: HeroProps) {
             className="relative"
           >
             <motion.img
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.6 }}
-              src="https://images.pexels.com/photos/8422403/pexels-photo-8422403.jpeg"
-              alt="Happy children learning"
-              className="rounded-3xl shadow-2xl w-full object-cover"
-            />
+  whileHover={{ scale: 1.05 }}
+  transition={{ duration: 0.6 }}
+  src="https://res.cloudinary.com/dd4oiwnep/image/upload/v1765680724/IMG_20251114_120014_mejrci.jpg"
+  alt="Happy children learning"
+  className="rounded-3xl shadow-2xl w-full h-[420px] sm:h-[480px] object-cover"
+/>
+
 
             <motion.div
               className="absolute -top-6 -right-6 w-full h-full bg-gradient-to-br from-[#5B4FBF]/20 to-[#4A9FD8]/20 rounded-3xl -z-10"

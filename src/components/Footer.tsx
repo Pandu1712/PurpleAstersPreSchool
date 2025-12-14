@@ -46,7 +46,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/purpleasters.preschool/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 hover:bg-[#5B4FBF] rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
@@ -54,7 +54,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 <Facebook size={20} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/purpleasters_preschool/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 hover:bg-[#5B4FBF] rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
@@ -105,7 +105,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <li className="flex items-start space-x-3">
                 <MapPin size={20} className="text-[#4A9FD8] flex-shrink-0 mt-1" />
                 <span className="text-gray-400 text-sm">
-                  123 Learning Lane, Education City, EC 12345
+                  213, 6th Cross 2nd Block 80 Feet Road RMV Extension, 2nd Stage, Sanjayanagara, Bengaluru-560094
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -114,7 +114,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                   href="tel:+1234567890"
                   className="text-gray-400 hover:text-white transition-colors text-sm"
                 >
-                  +1 (234) 567-890
+                  +91 95356 66707
                 </a>
               </li>
               <li className="flex items-center space-x-3">
@@ -123,7 +123,8 @@ export default function Footer({ onNavigate }: FooterProps) {
                   href="mailto:info@purpleasters.com"
                   className="text-gray-400 hover:text-white transition-colors text-sm"
                 >
-                  info@purpleasters.com
+                  purpleasterssanjaynagar@gmail.com
+
                 </a>
               </li>
             </ul>
