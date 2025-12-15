@@ -39,7 +39,7 @@ export default function Navbar({ onNavigate }: NavbarProps) {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? 'bg-[#FFC527] shadow-lg py-2'
-          : 'bg-white/95 backdrop-blur-sm py-4'
+          : 'bg-[#FFC527] backdrop-blur-sm py-4'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -49,9 +49,9 @@ export default function Navbar({ onNavigate }: NavbarProps) {
             onClick={() => handleNavClick('home')}
           >
             <img
-              src="/School.logo.png"
+              src="/School.Logo.jpg"
               alt="Purple Asters Logo"
-              className="h-16 w-16 sm:h-20 sm:w-20 object-contain rounded-full"
+              className="h-16 w-16 sm:h-20 sm:w-20 object-contain rounded-3xl"
             />
             <div className="ml-3">
               <h1 className="text-xl sm:text-2xl font-bold text-[#5B4FBF]">

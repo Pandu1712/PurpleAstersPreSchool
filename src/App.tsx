@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import FloatingIcons from './components/FloatingIcons';
+import Reviews from './components/Reviews';
 
 function App() {
   const handleNavigate = (section: string) => {
@@ -37,6 +38,7 @@ function App() {
         <About />
         <Gallery />
         <Blog />
+        <Reviews/>
         <Contact />
       </main>
       <Footer onNavigate={handleNavigate} />

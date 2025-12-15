@@ -64,12 +64,12 @@ export default function Hero({ onNavigate }: HeroProps) {
               Welcome to Purple Asters
             </span>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Where Little{" "}
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 text-[#FFC527]">
+              WHERE LITTLE{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5B4FBF] to-[#4A9FD8] animate-gradient">
-                Dreams
+                DREAMS
               </span>{" "}
-              Bloom
+              BLOOM
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0">
@@ -106,9 +106,9 @@ export default function Hero({ onNavigate }: HeroProps) {
             {/* STATS */}
             <div className="mt-12 grid grid-cols-3 gap-6">
               {[
-                { value: "500+", label: "Happy Kids", color: "#5B4FBF" },
+                { value: "250+", label: "Happy Kids", color: "#5B4FBF" },
                 { value: "15+", label: "Years Experience", color: "#4A9FD8" },
-                { value: "50+", label: "Expert Teachers", color: "#FDB64E" },
+                { value: "25+", label: "Expert Teachers", color: "#FDB64E" },
               ].map((item) => (
                 <motion.div
                   key={item.label}
