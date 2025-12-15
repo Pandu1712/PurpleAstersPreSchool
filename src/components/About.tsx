@@ -6,7 +6,7 @@ const features = [
     title: "Play-Based Learning",
     description:
       "Our curriculum combines fun and education through interactive play activities.",
-    bgColor: "#e073e0ff", // Google Blue
+    bgColor: "#693e69ff", // Google Blue
   },
   {
     icon: Users,

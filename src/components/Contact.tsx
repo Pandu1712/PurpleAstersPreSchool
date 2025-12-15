@@ -151,10 +151,12 @@ ${formData.message}
                   </a>
                 </div>
 
-                <div className="flex items-start space-x-4">
-                  <Clock />
-                  <span>Mon – Fri: 7:00 AM – 6:00 PM</span>
-                </div>
+               <div className="flex items-start space-x-4">
+  <Clock />
+  <span>Mon – Fri: 9:00 AM – 7:00 PM</span>
+  <span>Saturday: 9:00 AM – 2:00 PM</span>
+</div>
+
               </div>
             </div>
           </div>

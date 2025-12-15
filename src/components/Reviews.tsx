@@ -3,26 +3,26 @@ import { motion } from "framer-motion";
 
 const reviews = [
   {
-    name: "Anjali Reddy",
+    name: "latha Muddaraj",
     role: "Parent",
     message:
-      "Purple Asters has transformed my child’s confidence and curiosity. The teachers are caring and professional.",
+      "Awesome place for kids..highly recommended as perfect place for play school with lots of facilities to play learn and explore.. last but not the least very good teachers who constantly monitor kids..definitely the best play school.",
     rating: 5,
     color: "#4285F4", // Google Blue
   },
   {
-    name: "Rahul Sharma",
+    name: "Syed Jaffer",
     role: "Parent",
     message:
-      "A safe, joyful place where children truly love learning. Highly recommended for early education.",
+      "Well experienced teachers with good communication skills, its in a prime location ventilated place and Very hygienic, clean with ample parking around highly recommended.",
     rating: 5,
     color: "#DB4437", // Google Red
   },
   {
-    name: "Sneha Patel",
+    name: "Smitha Shetty",
     role: "Parent",
     message:
-      "The play-based learning approach is outstanding. My child looks forward to school every day.",
+      "Really amazing place for kids, excellent teachers..",
     rating: 4,
     color: "#F4B400", // Google Yellow
   },

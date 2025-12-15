@@ -3,37 +3,51 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 
 /* ===================== SECTION 1: CAROUSEL ===================== */
 const carouselImages = [
-  "https://images.pexels.com/photos/8535230/pexels-photo-8535230.jpeg",
-  "https://images.pexels.com/photos/8612990/pexels-photo-8612990.jpeg",
-  "https://images.pexels.com/photos/8613140/pexels-photo-8613140.jpeg",
-];
+  "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788215/WhatsApp_Image_2025-12-15_at_14.08.26_649ed3b5_x8ebsy.jpg",
+  "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788215/WhatsApp_Image_2025-12-15_at_14.08.25_7c41ceba_misjsf.jpg",
+  "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788214/WhatsApp_Image_2025-12-15_at_13.56.00_fcae7e2c_go4poo.jpg",
+  "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788213/WhatsApp_Image_2025-12-15_at_13.47.00_17631305_vsillz.jpg",
+  "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788212/WhatsApp_Image_2025-12-15_at_13.46.59_b938803c_hgifxg.jpg",
+  "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765680673/IMG20220830104905_ru9p2d.jpg",
+
+  ];
 
 /* ===================== SECTION 2: GRID ===================== */
 const gridImages = [
   {
-    main: "https://images.pexels.com/photos/8613143/pexels-photo-8613143.jpeg",
-    hover: "https://images.pexels.com/photos/8613200/pexels-photo-8613200.jpeg",
+    main: "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788215/WhatsApp_Image_2025-12-15_at_14.08.25_14d58766_incxfg.jpg",
+    hover: "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788214/WhatsApp_Image_2025-12-15_at_13.56.00_2cd34cbd_w651fa.jpg",
   },
   {
-    main: "https://images.pexels.com/photos/8422149/pexels-photo-8422149.jpeg",
-    hover: "https://images.pexels.com/photos/8535257/pexels-photo-8535257.jpeg",
+    main: "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788213/WhatsApp_Image_2025-12-15_at_14.08.26_4390ddbf_mhncut.jpg",
+    hover: "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788213/WhatsApp_Image_2025-12-15_at_13.46.58_355b50f8_nrep8x.jpg",
   },
   {
-    main: "https://images.pexels.com/photos/8613317/pexels-photo-8613317.jpeg",
-    hover: "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
+    main: "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765683294/IMG-20230724-WA0003_g3r4oj.jpg",
+    hover: "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765683298/WhatsApp_Image_2025-06-02_at_8.33.42_PM_naafuq.jpg",
   },
   {
-    main: "https://images.pexels.com/photos/8535230/pexels-photo-8535230.jpeg",
-    hover: "https://images.pexels.com/photos/8612990/pexels-photo-8612990.jpeg",
+    main: "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765683298/WhatsApp_Image_2025-06-02_at_8.33.42_PM_naafuq.jpg",
+    hover: "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765680856/IMG20220706100354_vwpj0h.jpg",
   },
 ];
 
 /* ===================== SECTION 3: AUTO SCROLL ===================== */
 const scrollImages = [
-  "https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg",
-  "https://images.pexels.com/photos/8535257/pexels-photo-8535257.jpeg",
-  "https://images.pexels.com/photos/8422149/pexels-photo-8422149.jpeg",
-  "https://images.pexels.com/photos/8613317/pexels-photo-8613317.jpeg",
+  "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765680725/IMG_20221024_133225_zx07ou.jpg",
+  "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765680714/IMG20220801101222_1_lubfbw.jpg",
+  "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765680660/IMG20240416101641_x3k9r0.jpg",
+  "https://res.cloudinary.com/dd4oiwnep/image/upload/v1765680671/IMG20240416092352_jt2cup.jpg",
+"https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788213/WhatsApp_Image_2025-12-15_at_13.47.00_17631305_vsillz.jpg",
+"https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788213/WhatsApp_Image_2025-12-15_at_13.46.58_355b50f8_nrep8x.jpg",
+"https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788213/WhatsApp_Image_2025-12-15_at_13.46.59_1a929d0b_f6v9ix.jpg",
+"https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788213/WhatsApp_Image_2025-12-15_at_13.49.31_33755a35_fa1qbk.jpg",
+"https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788213/WhatsApp_Image_2025-12-15_at_13.47.00_c6b8c1ea_npo3lq.jpg",
+"https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788213/WhatsApp_Image_2025-12-15_at_13.49.30_be808353_ckobo3.jpg",
+"https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788215/WhatsApp_Image_2025-12-15_at_14.08.25_7c41ceba_misjsf.jpg",
+"https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788214/WhatsApp_Image_2025-12-15_at_13.56.01_52b6c04f_d4wl4l.jpg",
+
+
 ];
 
 export default function Gallery() {
