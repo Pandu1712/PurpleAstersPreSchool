@@ -60,17 +60,23 @@ export default function Hero({ onNavigate }: HeroProps) {
             transition={{ duration: 1 }}
             className="text-center lg:text-left"
           >
-            <span className="inline-block mb-4 px-6 py-2 rounded-full bg-gradient-to-r from-[#5B4FBF] to-[#4A9FD8] text-white font-semibold shadow-lg">
-              Welcome to Purple Asters
-            </span>
+            <span className="inline-block mb-4 px-6 py-2 rounded-full
+bg-gradient-to-r from-[#5B4FBF] to-[#4A9FD8]
+text-white font-semibold shadow-lg">
+  Welcome to Purple Asters
+</span>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6 text-[#FFC527]">
-              WHERE LITTLE{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5B4FBF] to-[#4A9FD8] animate-gradient">
-                DREAMS
-              </span>{" "}
-              BLOOM
-            </h1>
+<h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold
+leading-tight mb-6 text-[#FFC527]">
+  WHERE LITTLE{" "}
+  <span
+    className="text-transparent bg-clip-text
+    bg-gradient-to-r from-[#5B4FBF] to-[#4A9FD8]"
+  >
+    DREAMS
+  </span>{" "}
+  BLOOM
+</h1>
 
             <p className="text-lg sm:text-xl text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0">
               Nurturing young minds through play, learning, and exploration in a
@@ -136,13 +142,16 @@ export default function Hero({ onNavigate }: HeroProps) {
             transition={{ duration: 1 }}
             className="relative"
           >
-            <motion.img
-  whileHover={{ scale: 1.05 }}
-  transition={{ duration: 0.6 }}
-  src="https://res.cloudinary.com/dd4oiwnep/image/upload/v1765680724/IMG_20251114_120014_mejrci.jpg"
-  alt="Happy children learning"
-  className="rounded-3xl shadow-2xl w-full h-[420px] sm:h-[480px] object-cover"
-/>
+<div className="w-full h-[420px] sm:h-[480px] flex items-center justify-center">
+  <motion.img
+    whileHover={{ scale: 1.05 }}
+    transition={{ duration: 0.6 }}
+    src="School.Logo.jpg"
+    alt="Happy children learning"
+    className="max-w-full max-h-full object-contain rounded-3xl shadow-2xl"
+  />
+</div>
+
 
 
             <motion.div

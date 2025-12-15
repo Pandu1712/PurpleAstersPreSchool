@@ -51,7 +51,7 @@ export default function Navbar({ onNavigate }: NavbarProps) {
             <img
               src="/School.Logo.jpg"
               alt="Purple Asters Logo"
-              className="h-16 w-16 sm:h-20 sm:w-20 object-contain rounded-3xl"
+              className="h-16 w-16 sm:h-20 sm:w-20 object-contain rounded-2xl"
             />
             <div className="ml-3">
               <h1 className="text-xl sm:text-2xl font-bold text-[#5B4FBF]">
