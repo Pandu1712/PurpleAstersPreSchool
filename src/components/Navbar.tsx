@@ -38,7 +38,7 @@ export default function Navbar({ onNavigate }: NavbarProps) {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white shadow-lg py-2'
+          ? 'bg-[#FFC527] shadow-lg py-2'
           : 'bg-white/95 backdrop-blur-sm py-4'
       }`}
     >
@@ -49,15 +49,15 @@ export default function Navbar({ onNavigate }: NavbarProps) {
             onClick={() => handleNavClick('home')}
           >
             <img
-              src="/SchoolLogo.png"
+              src="/School.logo.png"
               alt="Purple Asters Logo"
-              className="h-16 w-16 sm:h-20 sm:w-20 object-contain"
+              className="h-16 w-16 sm:h-20 sm:w-20 object-contain rounded-full"
             />
             <div className="ml-3">
               <h1 className="text-xl sm:text-2xl font-bold text-[#5B4FBF]">
                 Purple Asters
               </h1>
-              <p className="text-xs sm:text-sm text-[#4A9FD8] font-medium">
+              <p className="text-xs sm:text-sm text-black font-medium">
                 Pre School & Day Care
               </p>
             </div>

@@ -32,9 +32,9 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div>
             <div className="flex items-center mb-6">
               <img
-                src="/SchoolLogo.png"
+                src="/School.logo.png"
                 alt="Purple Asters Logo"
-                className="h-16 w-16 object-contain"
+                className="h-16 w-16 object-contain rounded-full"
               />
               <div className="ml-3">
                 <h3 className="text-xl font-bold">Purple Asters</h3>
