@@ -9,8 +9,7 @@ const blogPosts: BlogPost[] = [
       'Discover how play-based learning helps children develop essential cognitive, social, and emotional skills that form the foundation for lifelong learning.',
     date: 'December 10, 2024',
     image:
-      'https://images.pexels.com/photos/8422149/pexels-photo-8422149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-  },
+"https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788215/WhatsApp_Image_2025-12-15_at_14.08.26_649ed3b5_x8ebsy.jpg"  },
   {
     id: 2,
     title: 'Tips for Preparing Your Child for Their First Day of Preschool',
@@ -18,7 +17,7 @@ const blogPosts: BlogPost[] = [
       'Starting preschool is a big milestone. Here are practical tips to help make the transition smooth and positive for both you and your child.',
     date: 'December 5, 2024',
     image:
-      'https://images.pexels.com/photos/8613200/pexels-photo-8613200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788213/WhatsApp_Image_2025-12-15_at_13.46.58_355b50f8_nrep8x.jpg',
   },
   {
     id: 3,
@@ -27,7 +26,7 @@ const blogPosts: BlogPost[] = [
       'Learn about the powerful connection between music, movement, and brain development in young children, and how we incorporate these into daily activities.',
     date: 'November 28, 2024',
     image:
-      'https://images.pexels.com/photos/8613140/pexels-photo-8613140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788212/WhatsApp_Image_2025-12-15_at_14.08.26_870f6c08_tytevl.jpg',
   },
   {
     id: 4,
@@ -36,7 +35,7 @@ const blogPosts: BlogPost[] = [
       'Explore how group activities and cooperative play help children develop empathy, communication skills, and lasting friendships.',
     date: 'November 20, 2024',
     image:
-      'https://images.pexels.com/photos/8535230/pexels-photo-8535230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://res.cloudinary.com/dd4oiwnep/image/upload/v1765683294/IMG-20230724-WA0003_g3r4oj.jpg',
   },
   {
     id: 5,
@@ -45,7 +44,7 @@ const blogPosts: BlogPost[] = [
       'Understanding how art, crafts, and creative expression contribute to problem-solving skills, fine motor development, and self-confidence.',
     date: 'November 15, 2024',
     image:
-      'https://images.pexels.com/photos/8613089/pexels-photo-8613089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://res.cloudinary.com/dd4oiwnep/image/upload/v1765788213/WhatsApp_Image_2025-12-15_at_13.47.00_c6b8c1ea_npo3lq.jpg',
   },
   {
     id: 6,
@@ -54,7 +53,7 @@ const blogPosts: BlogPost[] = [
       'Practical advice on establishing healthy eating habits early and how we support nutritious meal times at Purple Asters.',
     date: 'November 8, 2024',
     image:
-      'https://images.pexels.com/photos/8422027/pexels-photo-8422027.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://res.cloudinary.com/dd4oiwnep/image/upload/v1765680856/IMG20220706100354_vwpj0h.jpg',
   },
 ];
 
