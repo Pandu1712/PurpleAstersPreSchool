@@ -1,7 +1,7 @@
 import {
   Facebook,
   Instagram,
-  Twitter,
+  Youtube,
   Mail,
   Phone,
   MapPin,
@@ -70,7 +70,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                   icon: Instagram,
                   href: "https://www.instagram.com/purpleasters_preschool/",
                 },
-                { icon: Twitter, href: "https://twitter.com" },
+                { icon: Youtube, href: "https://www.yotube.com/@PurpleAsters.school" },
               ].map(({ icon: Icon, href }, i) => (
                 <a
                   key={i}
