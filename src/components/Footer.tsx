@@ -70,7 +70,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                   icon: Instagram,
                   href: "https://www.instagram.com/purpleasters_preschool/",
                 },
-                { icon: Youtube, href: "https://www.yotube.com/@PurpleAsters.school" },
+                { icon: Youtube, href: "https://www.youtube.com/@PurpleAsters.school" },
               ].map(({ icon: Icon, href }, i) => (
                 <a
                   key={i}
